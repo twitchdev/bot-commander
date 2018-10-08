@@ -2,7 +2,7 @@
 
 ## Background
 
-This is a quick example of the new config service, and how to build an extension with the service that does not rely on a bakcend server (EBS).
+This is a quick example of the new config service, and how to build an extension with the service that does not rely on a backend server (EBS).
 
 ## Requirements
 
