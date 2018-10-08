@@ -1,0 +1,14 @@
+.config-command-container{
+    display:flex;
+}
+
+.config-command-actions{
+    height: inherit;
+    padding-right:1em;
+    cursor: pointer;
+    border-right: 1px solid;
+}
+
+.config-command-command{
+    padding-left:1em;
+}

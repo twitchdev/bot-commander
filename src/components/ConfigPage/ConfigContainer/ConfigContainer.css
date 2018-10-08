@@ -1,0 +1,12 @@
+.config-container-container{
+    display:flex;
+    flex-direction: column;
+}
+
+.config-container-form{
+    margin-bottom:.5em;
+}
+
+.config-container-footer{
+    margin-top:.5em;
+}

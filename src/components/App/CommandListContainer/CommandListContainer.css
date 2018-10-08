@@ -1,0 +1,16 @@
+.header{
+    width:100%;
+    display:flex;
+    flex-direction:row; 
+    color: #e5e3e8;
+    background-color:#6441A4;
+    font-weight: 400;
+}
+
+.header > .header-text, .header > .header-expand-toggle{
+    margin:.25em;
+}
+
+.header > .header-expand-toggle{
+    margin-left:auto;
+}
