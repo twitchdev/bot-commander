@@ -46,11 +46,11 @@ export default class ConfigPage extends React.Component{
             })
 
             this.twitch.configuration.onChanged(()=>{
-                let config = this.twitch.configuration.broadcaster ? this.twitch.configuration.broadcaster.content : ''
+                let config = this.twitch.configuration.broadcaster ? this.twitch.configuration.broadcaster.content : []
                 try{
                     config = JSON.parse(config)
                 }catch(e){
-                    config = ''
+                    config = []
                 }
 
                 this.setState(()=>{
