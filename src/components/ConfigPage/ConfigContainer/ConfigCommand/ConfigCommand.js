@@ -13,7 +13,7 @@ export default class ConfigCommand extends React.Component{
                     Delete
                 </div>
                 <div className="config-command-command">
-                    Comamnd: {this.props.command.command}<br/>
+                    Command: {this.props.command.command}<br/>
                     Description: {this.props.command.description}
                 </div>
             </div>

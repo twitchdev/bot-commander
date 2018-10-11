@@ -42,7 +42,6 @@ export default class App extends React.Component{
         if(this.twitch){
             this.twitch.onAuthorized((auth)=>{
                 this.Authentication.setToken(auth.token, auth.userId)
-                this.twitch.rig.log(auth.token)
                 if(!this.state.finishedLoading){
                     this.setState(()=>{
                         return {finishedLoading:true}
