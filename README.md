@@ -18,14 +18,26 @@ in an elevated command line interface.
 
 ## First time Usage
 
+### [Developer Rig](https://github.com/twitchdev/developer-rig) Usage
+
+If you are using the developer rig and have used this as your basis for your extension, please ignore the below steps- the developer rig has taken care of it for you! 
+
+### Local Development
+
+If you're wanting to develop this locally, use the below instructions. 
 To use this, simply clone the repository into the folder of your choice. 
+
+For example, to clone this into a `<repo name here>` folder, simply run the following in a commandline interface: 
+```
+git clone <repo name to be fixed later>
+```
 
 Next, do the following: 
 
 1. Change directories into the cloned folder.
 2. Run `yarn install` to install all prerequisite packages needed to run the template. 
 3. Run `yarn cert` to generate the needed certificates. This allows the server to be run over HTTPS vs. HTTP.
-4. Run `yarn start` to run the sample.
+4. Run `yarn start` to run the sample. If everything works, you should be be able to go to the developer rig, create a panel view, and see `Hello world!`
 
 ## Usage
 
