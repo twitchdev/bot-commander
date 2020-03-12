@@ -18,7 +18,7 @@ in an elevated command line interface.
 
 ## First time Usage
 
-### [Developer Rig](https://github.com/twitchdev/developer-rig) Usage
+### [Developer Rig](https://dev.twitch.tv/docs/extensions/rig/) Usage
 
 If you are using the developer rig and have used this as your basis for your extension, please ignore the below steps- the developer rig has taken care of it for you! 
 
