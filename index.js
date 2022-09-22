@@ -1,3 +1,4 @@
+
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 let entryPoints = {
